@@ -1,0 +1,47 @@
+body {
+	height: 1000px;
+}
+
+#funstuff {
+	background: purple;
+	height: 100px;
+	margin: 0px auto;
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-end;
+
+}
+
+#name {
+	font-size: 60px;
+	color: white;
+}
+
+#turns {
+	width: 105px;
+  height: 105px;
+  font-size: 100px;
+  font-family: 'Knewave', cursive;
+}
+
+#container {
+  background: purple;
+	height: 515px;
+  padding: 24px;
+  margin: 0px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+#container > div {
+	background: white;
+  border: #000 3px solid;
+  width: 210px;
+  height: 155px;
+  font-size: 80px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
